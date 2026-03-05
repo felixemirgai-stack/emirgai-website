@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --emirgai-blue: #1E3A8A;
+  --ai-accent: #3B82F6;
+  --success-green: #10B981;
+  --gray-50: #F8FAFC;
+  --gray-900: #1F2937;
+}
+
+body {
+  color: var(--gray-900);
+  background: var(--gray-50);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.bg-emirgai-blue {
+  background-color: var(--emirgai-blue);
+}
+
+.text-ai-accent {
+  color: var(--ai-accent);
+}
+
+.text-success-green {
+  color: var(--success-green);
+}
